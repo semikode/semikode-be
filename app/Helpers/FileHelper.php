@@ -39,7 +39,7 @@ class FileHelper {
 		$filepath = 'files/';
 		$location = $filepath . $filename;
 		Storage::put($location, file_get_contents($file));
-		$fileurl = env('APP_URL') . Storage::url($location);
+		$fileurl = Storage::url($location);
 
 		$result = File::create([
 			'original_name' => $originalName,
