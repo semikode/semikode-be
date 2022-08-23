@@ -1,0 +1,63 @@
+.navbar .navbar-brand-wrapper {
+    /* box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.3); */
+}
+
+.sidebar {
+    box-shadow: 0.5px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .nav .nav-item.nav-profile .nav-link {
+    padding: 1rem 1.625rem 2.25rem 1.188rem;
+}
+
+.sidebar .nav .nav-item.nav-profile {
+    /* background: rgba(236, 238, 239, 0.3); */
+}
+
+h2.title {
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+}
+
+nav.bc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.auth .login-half-bg {
+    /* background: url("../images/bg-login.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.auth .register-half-bg {
+    background-color: #f4f4f4;
+    /* background-image: url("../images/bg-login.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar.navbar-success .navbar-brand-wrapper .navbar-brand {
+    /* color: #404852; */
+    color: #fefefe;
+}
+
+.card-footer nav {
+    float: right;
+}
+
+/* .sidebar-dark .sidebar .nav .nav-item .nav-link.active {
+    background: #39363f;
+    color: #ffffff;
+}
+
+.sidebar-dark .sidebar .nav.sub-menu .nav-item .nav-link.active {
+    color: #80878c;
+} */
